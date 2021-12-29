@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+/* *{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  height: 125px;
+  width: 100%;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label{
+  padding: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav ul{
+  float: right;
+  margin-right: 40px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #505F98;
+  font-size: 20px;
+  padding:15px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#cadbut{
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 7px;
+  background: #D02525;
   color: white;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+#logbut{
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 7px;
+  color: #D02525;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div{
+  width: 50%;
+  margin-top: 150px;
+  margin-left: 50px;
 }
+
+#div1{
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#div2{
+  margin-top: 35px;
+  color: #595757;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 18px;
+}
+
+#div3{
+  margin-top: 35px;
+  margin-left: 15%;
+}
+
+span{
+  color: #D02525;
+
+}
+
+#jorneybutton{
+  font-size: 20px;
+  padding: 10px;
+  background: #D02525;
+  color: white;
+  border: none;
+}
+
+#stratbutton{
+  position: absolute;
+  font-size: 20px;
+  padding: 10px;
+  margin: 80px;
+  margin-top: -90px;
+  color: white;
+  border: none;
+  background: #167AC6;
+  
+
+}
+
+
+#images{
+  float: right;
+  margin-top: -200px;
+}
+
+#firstcontent{
+  display: flex;
+
+}
+
+#images2{
+  float: right;
+  margin-top: -180px;
+} */
