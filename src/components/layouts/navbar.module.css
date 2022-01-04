@@ -1,0 +1,24 @@
+.navbar {
+    height: 125px;
+    width: 200%;
+    background-color: white;
+  }
+
+  .list{
+    float: right;
+    margin-right: 40px;
+  }
+  
+  .insidelist{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a{
+    color: #505F98;
+    font-size: 20px;
+    padding:15px;
+    border-radius: 3px;
+    display: inline-block;
+  }
