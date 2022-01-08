@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import './login.css'
 import image2 from './image2.png'
+import { Link } from 'react-router-dom'
 import logo from './logo.png'
 
 import { MdEmail, MdLock } from "react-icons/md"
 import { HiEye, HiEyeOff, HiLogout } from "react-icons/hi"
+import reactRouterDom from 'react-router-dom'
 
 function Login() {
    const [email, setEmail] = useState("")
@@ -67,15 +69,14 @@ function Login() {
                </div>
             </div>
 
-            <button type="submit">
+            <button className="teste" type="submit">
                Entrar
             </button>
 
-            <h3>Não tenho conta!</h3>
-
-            <button type="submit">
-               Cadastrar
-            </button>
+            <div className="agatres">
+               <h3>Não tenho conta!</h3>
+            </div>
+            <Link to= "/cadastro"><button className="tester" type="submit">Cadastrar </button></Link>  
          </div>
       </div>
    )

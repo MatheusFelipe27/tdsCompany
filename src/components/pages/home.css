@@ -6,17 +6,17 @@
     box-sizing: border-box;
   }
   
-  nav {
+  /* nav {
     height: 125px;
     width: 100%;
     background-color: white;
-  }
+  } */
   
   label{
     padding: 100px;
   }
   
-  nav ul{
+  /* nav ul{
     float: right;
     margin-right: 40px;
   }
@@ -34,7 +34,7 @@
     border-radius: 3px;
     display: inline-block;
   }
-  
+   */
   .cadbut{
     font-size: 20px;
     border-radius: 5px;
@@ -52,12 +52,12 @@
     border: none;
   }
   
-  div{
-    width: 50%;
-    margin-top: 150px;
-    margin-left: 50px;
+   .div1, .div2, .div3, .div4{
+     /* width: 50%;  */
+    margin-top: 300px;
+    margin-left: 50px; 
   }
-  
+    
   .div1{
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,6 +74,9 @@
   .div3{
     margin-top: 35px;
     margin-left: 15%;
+  }
+  .div4{
+    margin-top: 150px;
   }
   
   span{
@@ -107,6 +110,10 @@
     float: right;
     margin-top: -200px;
   }
+
+  .juntos{
+    margin-top: -220px;
+  }
   
   .firstcontent{
     display: flex;
@@ -115,5 +122,33 @@
   
   .images2{
     float: right;
-    margin-top: -180px;
+    margin-top: 10px;
   } 
+
+  .images3{
+    margin-left: -50px;
+  }
+
+  .allcontent{
+    margin-top: -100px;
+  }
+
+  .divright{
+    margin-top: 35px;
+    color: #595757;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 50%;
+    margin-right: 30px;
+    margin-top: -380px;
+    
+  }
+
+  .h1right{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 400px;
+    margin-top: -450px;
+
+  }

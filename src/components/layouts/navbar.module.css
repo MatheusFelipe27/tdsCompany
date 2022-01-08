@@ -1,7 +1,9 @@
 .navbar {
     height: 125px;
-    width: 200%;
+    /* width: 200%; */
     background-color: white;
+    
+    
   }
 
   .list{
@@ -13,6 +15,10 @@
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+  }
+
+  .logoo{
+    margin-right: 100px;
   }
   
   nav ul li a{

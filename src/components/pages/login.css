@@ -105,7 +105,7 @@
     margin-right: 10px;
 }
 
-.login-right button {
+.login-right .teste {
     width: 98%;
     background-color: #D02525;
     color: #EFF2F5;
@@ -113,13 +113,31 @@
     height: 50px;
     border-radius: 5px;
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 25px;
     border: none;
-
     outline-width: 0;
 }
 
-.login-right button:hover {
+.login-right .tester {
+    width: 98;
+    background-color: #D02525;
+    color: #EFF2F5;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 25px;
+    border: none;
+    outline-width: 0;
+}
+
+.login-right .tester:hover {
+    background-color: #121214;
+    color: #EFF2F5;
+    cursor: pointer;
+}
+
+.login-right .teste:hover {
     background-color: #121214;
     color: #EFF2F5;
     cursor: pointer;
@@ -131,8 +149,30 @@
     font-size: 30;
     cursor: pointer;
     margin-right: 10px;
+    
 }
 
-h3{
-    color:white
+.agatres{
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 30px;
 }
+
+/* .cadastro{
+    width: 98%;
+    background-color: #D02525;
+    color: #EFF2F5;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 25px;
+    border: none;
+    outline-width: 0;
+} */
+
+/* .cadastro hover{
+    background-color: #121214;
+    color: #EFF2F5;
+    cursor: pointer;
+} */

@@ -4,20 +4,18 @@ import Home from './components/pages/home';
 import Login from './components/pages/login';
 import Cadastro from './components/pages/cadastro';
 
-import Navbar from './components/layouts/navbar';
 
 function App() {
   return(
     <Router>
-      <Navbar/>
       <Switch>
-        <Route exact path ="/">
+        <Route exact path="/">
          <Home/> 
         </Route>
-        <Route exact path ="/login">
+        <Route exact path="/login">
           <Login/>
         </Route>
-        <Route exact path = "/cadastro">
+        <Route exact path="/cadastro">
           <Cadastro/>
         </Route>
       </Switch>
